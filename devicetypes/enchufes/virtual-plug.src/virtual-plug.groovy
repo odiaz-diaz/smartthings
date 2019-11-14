@@ -14,7 +14,7 @@
  *
  */
 metadata {
-   definition (name: "Virtual Plug", namespace: "enchufes", author: "odiaz", runLocally: false, mnmn: "SmartThings", vid: "generic-switch") {
+   definition (name: "Virtual Plug", namespace: "enchufes", author: "odiaz", runLocally: false, mnmn: "SmartThings", vid: "generic-switch", ocfDeviceType:"oic.d.smartplug" ) {
         capability "Actuator"
         capability "Sensor"
         capability "Switch"
