@@ -14,7 +14,7 @@
  *
  */
 metadata {
-   definition (name: "Virtual Light", namespace: "luces", author: "odiaz", runLocally: false, mnmn: "SmartThings", vid: "generic-switch") {
+   definition (name: "Virtual Light", namespace: "luces", author: "odiaz", runLocally: false, mnmn: "SmartThings", ocfDeviceType: "oic.d.light",  vid: "generic-switch") {
         capability "Actuator"
         capability "Sensor"
         capability "Switch"
