@@ -18,6 +18,7 @@ metadata {
         capability "Actuator"
         capability "Sensor"
         capability "Switch"
+        capability "Alarm"
     }
  
     preferences {}
